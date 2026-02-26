@@ -5,7 +5,7 @@ import sbt.*
 import Keys.*
 import Versions.*
 
-ThisBuild / scalaVersion := "3.7.4"
+ThisBuild / scalaVersion := "3.8.2"
 ThisBuild / name := "toolsjs"
 ThisBuild / organization := "io.tools"
 
