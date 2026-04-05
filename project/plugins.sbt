@@ -1,4 +1,4 @@
-val scalajsVersion = "1.20.2"
+val scalajsVersion = "1.21.0"
 val livereloadVersion = "0.2.10"
 
 addSbtPlugin("org.scala-js" % "sbt-scalajs" % scalajsVersion)
