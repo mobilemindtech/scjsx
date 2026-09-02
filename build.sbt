@@ -5,11 +5,11 @@ import sbt.*
 import Keys.*
 import Versions.*
 
-ThisBuild / scalaVersion := "3.7.4"
+ThisBuild / scalaVersion := "3.9.0"
 ThisBuild / name := "toolsjs"
-ThisBuild / organization := "io.tools"
+ThisBuild / organization := "br.com.mobilemind"
 
-version := "0.0.1"
+version := "0.0.2"
 
 val toolsjs = (project in file("."))
   .enablePlugins(ScalaJSPlugin)
@@ -20,6 +20,7 @@ val toolsjs = (project in file("."))
       "org.querki" %%% "jquery-facade" % jqueryVersion,
       "org.querki" %%% "bootstrap-datepicker-facade" % jqueryDatepickerVersion,
       "com.lihaoyi" %%% "upickle" % upickleVersion,
+      "dev.laminext" %%% "fetch" % fetchVersion,
       "io.github.cquiroz" %%% "scala-java-time" % javaTimeVersion,
       "io.github.cquiroz" %%% "scala-java-time-tzdb" % javaTimeVersion
     )

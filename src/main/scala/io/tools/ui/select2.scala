@@ -56,7 +56,7 @@ object select2:
           val items = dataToValue(data)
           val newValue = items.map(_.id).mkString(",")
           if shouldChange(newValue) then makeChange(items, newValue)
-        })(owner)
+        })(using owner)
     )
 
     private def el = $(s"#$id")
