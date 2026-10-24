@@ -5,11 +5,11 @@ import sbt.*
 import Keys.*
 import Versions.*
 
-ThisBuild / scalaVersion := "3.9.0"
+ThisBuild / scalaVersion := "3.10.0"
 ThisBuild / name := "toolsjs"
 ThisBuild / organization := "br.com.mobilemind"
 
-version := "0.0.2"
+version := "0.0.3"
 
 val toolsjs = (project in file("."))
   .enablePlugins(ScalaJSPlugin)
