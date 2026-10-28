@@ -3,6 +3,6 @@ object Versions {
   val jqueryVersion = "2.2"
   val jqueryDatepickerVersion = "0.11"
   val upickleVersion = "4.4.3"
-  val javaTimeVersion = "2.8.0"
+  val javaTimeVersion = "2.9.0"
   val fetchVersion = "0.17.1"
 }
