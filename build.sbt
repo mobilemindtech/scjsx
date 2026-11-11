@@ -5,7 +5,7 @@ import sbt.*
 import Keys.*
 import Versions.*
 
-scalaVersion := "3.10.0"
+scalaVersion := "3.10.1"
 organization := "br.com.mobilemind"
 
 version := "0.0.3"
